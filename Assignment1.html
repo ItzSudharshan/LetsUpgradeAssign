@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Fixed Header and Footer</title>
+	<style type="text/css">
+		body {
+			margin: 0;
+			padding: 0;
+			display: flex;
+			flex-direction: column;
+			min-height: 100vh;
+		}
+		header {
+			background-color: grey;
+			color: white;
+			position: fixed;
+			top: 0;
+			left: 0;
+			width: 100%;
+			padding: 10px;
+		}
+		main {
+			flex-grow: 1;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+		main p {
+			font-size: 24px;
+			text-align: center;
+		}
+		footer {
+			background-color: grey;
+			color: white;
+			position: fixed;
+			bottom: 0;
+			left: 0;
+			width: 100%;
+			padding: 10px;
+		}
+	</style>
+</head>
+<body>
+	<header>Header</header>
+	<main><p style="color:red ;"><b>Centered Content</b>.<br>This is My Assignment for Lets Upgrade HTML and CSS essentials BootCamp</p></main>
+	<footer>Footer</footer>
+</body>
+</html>
